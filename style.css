@@ -77,14 +77,13 @@ h2 {
   background: no-repeat url(./images/icon-calculator.svg);
   background-position: bottom 25px right 25px;
 }
-footer {
-  position: absolute;
-  bottom: 0;
-}
 
 @media screen and (max-width: 576px) {
   main {
     flex-direction: column;
+  }
+  body {
+    height: 100%;
   }
   .container {
     flex: 1;
@@ -98,8 +97,5 @@ footer {
   }
   .calculator {
     margin-top: 0;
-  }
-  footer {
-    bottom: -120px;
   }
 }
