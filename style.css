@@ -78,7 +78,7 @@ h2 {
   background-position: bottom 25px right 25px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 1220px) {
   main {
     flex-direction: column;
   }
