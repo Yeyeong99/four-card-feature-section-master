@@ -1,0 +1,26 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  text-align: center;
+}
+main {
+  display: flex;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
